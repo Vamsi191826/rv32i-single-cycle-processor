@@ -1,0 +1,3 @@
+IMMEDIATE_CHECKS=8192
+TESTBENCH_PASS tb_immediate
+/workspace/scratch/20c045626524/output/RV32I_Single_Cycle_Project/tb/tb_immediate.sv:37: $finish called at 8192000 (1ps)

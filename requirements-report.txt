@@ -1,0 +1,4 @@
+# Only needed to regenerate diagrams and the report; simulation uses Python standard library.
+reportlab>=4.0
+matplotlib>=3.7
+

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "tool": "Yosys",
+  "version": "Yosys 0.33 (git sha1 2584903a060)",
+  "scope": "core only, generic synthesis; no FPGA placement/timing",
+  "latches_inferred": 0,
+  "source_sha256": {
+    "rtl/rv32i_alu.v": "5ffd6c2d33069cc6af2c9ca61d7e6aa0c72568b64f74a926e5b6ccacff721e1d",
+    "rtl/rv32i_branch.v": "ee4358ff572b0298840f6228d435850d9767554ed6c26eed13a1e299d77ca221",
+    "rtl/rv32i_core.v": "f7f29d22bf0db038c0d879c9f418621df51d0ac03f4ac23682251159e6523929",
+    "rtl/rv32i_decoder.v": "2a083fbf445eb2b6499d1cb2aea9735047883fd9a35ecf26bef5a71700197030",
+    "rtl/rv32i_immediate.v": "ae99b31712efa0f3f2528b7336bb6fd97835738d136928157ade24360b4bb350",
+    "rtl/rv32i_pc.v": "079e73a30757f7d99fb1c6145947c4b6d203e6ce733bc3b5e3e875977b60c953",
+    "rtl/rv32i_regfile.v": "b7b1797195854f0d4461d9e1d8858b9517a651c5947e41d2204fe2dd6773a239",
+    "rtl/rv32i_defs.vh": "ef00e17ecf4dc770618c8ad48d0c83e7040e44f317fc3bdf53f0e6e29fedc7ce"
+  }
+}

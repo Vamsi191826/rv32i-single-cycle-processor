@@ -1,0 +1,3 @@
+REGFILE_CHECKS=98
+TESTBENCH_PASS tb_regfile
+/workspace/scratch/20c045626524/output/RV32I_Single_Cycle_Project/tb/tb_regfile.sv:36: $finish called at 396000 (1ps)

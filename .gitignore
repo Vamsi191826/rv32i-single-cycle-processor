@@ -1,0 +1,9 @@
+build/
+__pycache__/
+*.pyc
+results/user_runs/*
+!results/user_runs/README.md
+*.jou
+*.log
+.Xil/
+xsim.dir/

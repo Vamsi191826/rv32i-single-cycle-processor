@@ -1,0 +1,178 @@
+{
+   "creator": "Yosys 0.33 (git sha1 2584903a060)",
+   "invocation": "stat -json ",
+   "modules": {
+      "$paramod\\rv32i_pc\\RESET_PC=32'00000000000000000000000000000000": {
+         "num_wires":         5,
+         "num_wire_bits":     67,
+         "num_pub_wires":     5,
+         "num_pub_wire_bits": 67,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         32,
+         "num_cells_by_type": {
+            "$_SDFFE_PP0P_": 32
+         }
+      },
+      "\\rv32i_alu": {
+         "num_wires":         1486,
+         "num_wire_bits":     1582,
+         "num_pub_wires":     5,
+         "num_pub_wire_bits": 101,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         1514,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 546,
+            "$_AND_": 63,
+            "$_MUX_": 341,
+            "$_NAND_": 91,
+            "$_NOR_": 20,
+            "$_NOT_": 45,
+            "$_ORNOT_": 52,
+            "$_OR_": 230,
+            "$_XNOR_": 51,
+            "$_XOR_": 75
+         }
+      },
+      "\\rv32i_branch": {
+         "num_wires":         185,
+         "num_wire_bits":     249,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 68,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         182,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 84,
+            "$_AND_": 3,
+            "$_MUX_": 4,
+            "$_NAND_": 6,
+            "$_NOR_": 6,
+            "$_NOT_": 1,
+            "$_ORNOT_": 40,
+            "$_OR_": 5,
+            "$_XNOR_": 23,
+            "$_XOR_": 10
+         }
+      },
+      "\\rv32i_core": {
+         "num_wires":         1146,
+         "num_wire_bits":     2054,
+         "num_pub_wires":     67,
+         "num_pub_wire_bits": 975,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         1560,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 335,
+            "$_AND_": 36,
+            "$_MUX_": 457,
+            "$_NAND_": 68,
+            "$_NOR_": 27,
+            "$_NOT_": 143,
+            "$_ORNOT_": 20,
+            "$_OR_": 103,
+            "$_SDFFE_PP0P_": 271,
+            "$_SDFF_PP0_": 2,
+            "$_XNOR_": 40,
+            "$_XOR_": 52,
+            "$paramod\\rv32i_pc\\RESET_PC=32'00000000000000000000000000000000": 1,
+            "rv32i_alu": 1,
+            "rv32i_branch": 1,
+            "rv32i_decoder": 1,
+            "rv32i_immediate": 1,
+            "rv32i_regfile": 1
+         }
+      },
+      "\\rv32i_decoder": {
+         "num_wires":         247,
+         "num_wire_bits":     302,
+         "num_pub_wires":     21,
+         "num_pub_wire_bits": 76,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         253,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 83,
+            "$_AND_": 10,
+            "$_MUX_": 6,
+            "$_NAND_": 8,
+            "$_NOR_": 18,
+            "$_NOT_": 9,
+            "$_ORNOT_": 26,
+            "$_OR_": 93
+         }
+      },
+      "\\rv32i_immediate": {
+         "num_wires":         188,
+         "num_wire_bits":     252,
+         "num_pub_wires":     3,
+         "num_pub_wire_bits": 67,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         217,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 136,
+            "$_AND_": 2,
+            "$_NAND_": 3,
+            "$_NOT_": 1,
+            "$_ORNOT_": 15,
+            "$_OR_": 60
+         }
+      },
+      "\\rv32i_regfile": {
+         "num_wires":         3153,
+         "num_wire_bits":     4316,
+         "num_pub_wires":     44,
+         "num_pub_wire_bits": 1207,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         4229,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 131,
+            "$_AND_": 2,
+            "$_MUX_": 2976,
+            "$_NAND_": 2,
+            "$_NOR_": 1,
+            "$_NOT_": 4,
+            "$_ORNOT_": 4,
+            "$_OR_": 85,
+            "$_SDFFCE_PN0P_": 1024
+         }
+      }
+   },
+      "design": {
+         "num_wires":         6410,
+         "num_wire_bits":     8822,
+         "num_pub_wires":     149,
+         "num_pub_wire_bits": 2561,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         7981,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 1315,
+            "$_AND_": 116,
+            "$_MUX_": 3784,
+            "$_NAND_": 178,
+            "$_NOR_": 72,
+            "$_NOT_": 203,
+            "$_ORNOT_": 157,
+            "$_OR_": 576,
+            "$_SDFFCE_PN0P_": 1024,
+            "$_SDFFE_PP0P_": 303,
+            "$_SDFF_PP0_": 2,
+            "$_XNOR_": 114,
+            "$_XOR_": 137
+         }
+      }
+}
+

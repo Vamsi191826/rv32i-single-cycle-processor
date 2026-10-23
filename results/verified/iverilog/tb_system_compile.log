@@ -1,0 +1,5 @@
+/workspace/scratch/20c045626524/output/RV32I_Single_Cycle_Project/rtl/rv32i_memory.v:31: warning: @* is sensitive to all 1024 words in array 'imem'.
+/workspace/scratch/20c045626524/output/RV32I_Single_Cycle_Project/rtl/rv32i_memory.v:41: warning: @* is sensitive to all 4096 words in array 'dmem'.
+/workspace/scratch/20c045626524/output/RV32I_Single_Cycle_Project/rtl/rv32i_memory.v:41: warning: @* is sensitive to all 4096 words in array 'dmem'.
+/workspace/scratch/20c045626524/output/RV32I_Single_Cycle_Project/rtl/rv32i_memory.v:41: warning: @* is sensitive to all 4096 words in array 'dmem'.
+/workspace/scratch/20c045626524/output/RV32I_Single_Cycle_Project/rtl/rv32i_memory.v:41: warning: @* is sensitive to all 4096 words in array 'dmem'.

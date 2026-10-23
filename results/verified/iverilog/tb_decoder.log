@@ -1,0 +1,3 @@
+DECODER_CHECKS=2093
+TESTBENCH_PASS tb_decoder
+/workspace/scratch/20c045626524/output/RV32I_Single_Cycle_Project/tb/tb_decoder.sv:62: $finish called at 2093000 (1ps)
