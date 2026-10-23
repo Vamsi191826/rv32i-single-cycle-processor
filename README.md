@@ -18,6 +18,10 @@ An educational, modular 32-bit RISC-V core with a reproducible verification flow
 
 This implements the RV32I instruction behavior for a minimal execution environment. It is not an officially certified RISC-V implementation. There is no privileged ISA, CSR file, trap vector, interrupt controller, M/C/A extension, cache, AXI interface or stall protocol. FENCE.I is illegal. ECALL/EBREAK do not retire.
 
+## Processor Architecture
+
+![RV32I Processor Architecture](docs/processor_architecture.png)
+
 ## Repository map
 
 | Folder/file | Purpose |
