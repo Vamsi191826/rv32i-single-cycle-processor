@@ -20,7 +20,7 @@ This implements the RV32I instruction behavior for a minimal execution environme
 
 ## Processor Architecture
 
-![RV32I Processor Architecture](docs/processor_architecture.png)
+![RV32I Processor Architecture](docs/RV32I_Single_Cycle.png)
 
 ## Repository map
 
